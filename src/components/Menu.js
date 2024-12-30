@@ -10,7 +10,7 @@ function Header() {
   };
   return (
     <>
-      <div className="ContainerBurger w-[20%] h-[20vh] bg-yellow border-l-3 border-b-3 border-black flex justify-center items-center cursor-pointer fixed z-20 right-0">
+      <div className="ContainerBurger w-[20%] h-[20vh] bg-yellow border-l-3 border-r-3 border-b-3 border-black flex justify-center items-center cursor-pointer fixed z-20 right-0">
         <img
           src={burger}
           alt="burger"
@@ -24,7 +24,7 @@ function Header() {
         }`}
       >
         <div className="w-screen h-[20vh] border-b-3 border-black">
-          <div className="ContainerBurger w-[20%] h-[20vh] bg-yellow border-l-3 border-b-3 border-black flex justify-center items-center cursor-pointer absolute right-0">
+          <div className="ContainerBurger w-[20%] h-[20vh] bg-yellow border-l-3 border-r-3 border-b-3 border-black flex justify-center items-center cursor-pointer absolute right-0">
             <img
               src={croix}
               alt="croix"

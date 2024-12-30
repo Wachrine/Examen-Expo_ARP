@@ -10,8 +10,9 @@ function App() {
       <div className="App bg-Background w-full h-screen">
         <Header />
         <Menu />
+        <Accueil />
         <Routes>
-        <Route path="/accueil" element={<Accueil />} />
+        <Route path="/" element={<Accueil />} />
         </Routes>
       </div>
     </Router>

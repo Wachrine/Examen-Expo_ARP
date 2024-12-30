@@ -43,7 +43,7 @@ function Accueil() {
             </div>
           </div>
         </div>
-        <div className="colonne3 w-1/5 border-l-3 border-black">
+        <div className="colonne3 w-1/5 border-l-3 border-r-3 border-black">
           <div className="range1 w-full h-[70%]">
             <div className="flex flex-col justify-center items-center h-[45%]">
               <img src={fleche} alt="fleche" className="object-cover w-32" />
