@@ -9,7 +9,7 @@ import fleche from "../assets/Images/fleche_KeepScroll.svg";
 function Accueil() {
   return (
     <>
-      <section className="flex w-screen  bg-Background box-border">
+      <section className="Accueil flex w-screen  bg-Background box-border">
         <div className="colonne1 w-1/5  border-r-3 border-black">
           <div className="range1 h-[70%] w-full flex justify-center items-center">
             <img src={Oeuvre1} alt="Oeuvre1" className="object-cover w-56" />

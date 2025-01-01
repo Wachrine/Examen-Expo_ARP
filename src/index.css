@@ -5,3 +5,18 @@
 *{
     @apply m-0 p-0 box-border
 }
+.HAUT{
+    @apply h-[70%] w-full
+}
+.BAS{
+    @apply h-[30%] w-full border-t-3 border-black
+}
+/* .txtBold{
+    @apply font-bold
+} */
+ .Colonne_Oeuvres{
+    @apply w-[25%] border-r-3 border-black flex justify-center items-center
+ }
+ .border_form{
+    @apply border-2 border-black bg-Background  pb-2 pt-2 pl-1 pr-1
+ }

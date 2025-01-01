@@ -8,7 +8,7 @@ import Fontaine from "../assets/Images/fontaine dada.png";
 function Infos() {
   return (
     <>
-      <section className="flex flex-col w-screen h-full box-border bg-Background relative">
+      <section className="Infos flex flex-col w-screen h-full box-border bg-Background relative">
 
           <div className="Fontaine w-full h-full absolute z-20">
             <img
@@ -19,7 +19,7 @@ function Infos() {
           </div>
 
 
-        <div className="Haut flex  relative h-[70%] w-full">
+        <div className="HAUT flex relative">
           <div className="w-full absolute">
             <img
               src={iconCercle}
@@ -53,7 +53,7 @@ function Infos() {
           </div>
         </div>
 
-        <div className="Bas h-[30%] flex w-full relative border-t-3 border-black">
+        <div className="BAS flex relative">
           <div className="w-full h-full absolute">
             <img
               src={Fleche_Concours}

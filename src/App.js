@@ -4,6 +4,9 @@ import Accueil from "./components/Accueil";
 import Header from "./components/Header";
 import Menu from "./components/Menu";
 import Infos from "./components/Infos";
+import Artistes from "./components/Artistes";
+import Oeuvres from "./components/Oeuvres";
+import Contacts from "./components/Contacts";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <div className="Sections flex flex-row absolute top-36 w-auto h-[80vh] box-border">
           <Accueil />
           <Infos />
+          <Artistes />
+          <Oeuvres />
+          <Contacts />
         </div>
       </div>
     </Router>
