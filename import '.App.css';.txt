@@ -1,0 +1,31 @@
+// import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Accueil from "./components/Accueil";
+import Header from "./components/Header";
+import Menu from "./components/Menu";
+import Infos from "./components/Infos";
+
+
+function App() {
+  return (
+    <Router>
+      <div className="App bg-Background w-auto h-screen relative flex">
+        <Header />
+        <Menu />
+
+        <Accueil />
+        <Routes>
+          {/* Route Racine */}
+        <Route path="/" element={<Accueil />} />
+        {/* Autres Routes */}
+        <Route path="/accueil" element={<Accueil />} />
+        <Route path="/infos" element={<Infos />} />
+        <Route path="*" element={<h1>Page non trouvée</h1>} />
+        </Routes>
+
+      </div>
+    </Router>
+  );
+}
+
+export default App;

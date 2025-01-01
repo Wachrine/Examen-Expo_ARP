@@ -46,15 +46,18 @@ function Header() {
           </div>
 
           <div className="Menu_Colonne2 w-2/4 border-r-3 border-black h-[80vh] font-Orbitron font-medium text-4xl flex justify-center items-center">
-            <Link to="/infos">Infos</Link>
+            <Link to="/infos" onClick={() => setisOpen(false)}>
+              Infos
+            </Link>
           </div>
 
           <div className="Menu_Colonne3 w-2/4 border-r-3 border-black h-[80vh] font-Orbitron font-medium text-4xl">
-            <div className="h-[70%] flex justify-center items-center border-b-3 border-black"><Link to="/Oeuvres">Oeuvres</Link></div>
-            <div className="h-[30%] flex justify-center items-center bg-beige"><Link to="/Contacts">Contacts</Link></div>
-              
-
-              
+            <div className="h-[70%] flex justify-center items-center border-b-3 border-black">
+              <Link to="/Oeuvres">Oeuvres</Link>
+            </div>
+            <div className="h-[30%] flex justify-center items-center bg-beige">
+              <Link to="/Contacts">Contacts</Link>
+            </div>
           </div>
         </div>
       </div>

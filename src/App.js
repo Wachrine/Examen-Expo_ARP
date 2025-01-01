@@ -3,17 +3,18 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Accueil from "./components/Accueil";
 import Header from "./components/Header";
 import Menu from "./components/Menu";
+import Infos from "./components/Infos";
 
 function App() {
   return (
     <Router>
-      <div className="App bg-Background w-full h-screen">
+      <div className="App relative h-screen overflow-y-hidden">
         <Header />
         <Menu />
-        <Accueil />
-        <Routes>
-        <Route path="/" element={<Accueil />} />
-        </Routes>
+        <div className="Sections flex flex-row absolute top-36 w-auto h-[80vh] box-border">
+          <Accueil />
+          <Infos />
+        </div>
       </div>
     </Router>
   );

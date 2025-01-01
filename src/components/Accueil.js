@@ -9,12 +9,12 @@ import fleche from "../assets/Images/fleche_KeepScroll.svg";
 function Accueil() {
   return (
     <>
-      <section className="flex w-full h-[80vh] absolute bottom-0">
+      <section className="flex w-screen  bg-Background box-border">
         <div className="colonne1 w-1/5  border-r-3 border-black">
-          <div className="h-[70%] w-full flex justify-center items-center">
+          <div className="range1 h-[70%] w-full flex justify-center items-center">
             <img src={Oeuvre1} alt="Oeuvre1" className="object-cover w-56" />
           </div>
-          <div className="h-[30%] border-t-3 border-black bg-blue font-Orbitron font-bold text-xl">
+          <div className="range2 h-[30%] border-t-3 border-black bg-blue font-Orbitron font-bold text-xl">
             <div className="w-full h-full flex flex-col">
               <div className="h-14 flex items-center">
                 <p className="pl-10">Friends,</p>
@@ -43,7 +43,7 @@ function Accueil() {
             </div>
           </div>
         </div>
-        <div className="colonne3 w-1/5 border-l-3 border-r-3 border-black">
+        <div className="colonne3 w-1/5 border-l-3  border-black">
           <div className="range1 w-full h-[70%]">
             <div className="flex flex-col justify-center items-center h-[45%]">
               <img src={fleche} alt="fleche" className="object-cover w-32" />

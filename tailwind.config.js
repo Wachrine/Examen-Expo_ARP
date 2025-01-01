@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily: {
         Orbitron: ['"Orbitron"', "sans-serif"],
+        Montserrat: ['"Montserrat"', "sans-serif"],
       },
       borderWidth: {
         '3': '3px',
