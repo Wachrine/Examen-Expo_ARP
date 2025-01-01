@@ -38,14 +38,14 @@ function Contacts() {
         </div>
         <div className="BAS_Contacts w-full h-[80%] flex">
           <div className="Colonne1_Contact border-r-3 border-black w-[40%] flex flex-col justify-center items-center h-full">
-            <div className="h-[50%]">
+            <div className="h-[50%] border-b-3 border-black">
               <p className="font-Orbitron text-lg text-center pl-20 pr-20 pt-12 pb-12">
                 Décrochez vos chances de vivre une expérience immersive !
                 Participez à notre concours exclusif et tentez de remporter des
                 billets pour l'exposition exceptionnelle qui vous attend.
               </p>
             </div>
-            <div className="h-[50%] border-t-3 border-black w-full">
+            <div className="h-[50%]  w-full">
               <div className="flex justify-center items-center h-full">
                 <button className="bg-blue border-2 border-black pl-5 pr-5 pt-2 pb-2 font-Orbitron text-xl font-normal scale-100 transition-transform duration-300 ease-in-out hover:scale-110">
                   Envoyer

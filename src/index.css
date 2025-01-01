@@ -14,9 +14,9 @@
 /* .txtBold{
     @apply font-bold
 } */
- .Colonne_Oeuvres{
+ /* .Colonne_Oeuvres{
     @apply w-[25%] border-r-3 border-black flex justify-center items-center
- }
+ } */
  .border_form{
     @apply border-2 border-black bg-Background  pb-2 pt-2 pl-1 pr-1
  }
