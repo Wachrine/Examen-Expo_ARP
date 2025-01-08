@@ -2,10 +2,13 @@
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://souraya.techniques-graphiques.be/Arp/",
   "dependencies": {
     "cra-template": "1.2.0",
     "gsap": "^3.12.5",
     "isotope-layout": "^3.0.6",
+    "js-cookie": "^3.0.5",
+    "locomotive-scroll": "^4.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.1",

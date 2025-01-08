@@ -2,21 +2,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
-    @apply m-0 p-0 box-border
+
+* , 
+body{
+    @apply m-0 p-0 box-border 
 }
-.HAUT{
+
+.HAUT {
     @apply h-[70%] w-full
 }
-.BAS{
+
+.BAS {
     @apply h-[30%] w-full border-t-3 border-black
 }
-/* .txtBold{
-    @apply font-bold
-} */
- /* .Colonne_Oeuvres{
-    @apply w-[25%] border-r-3 border-black flex justify-center items-center
- } */
- .border_form{
-    @apply border-2 border-black bg-Background  pb-2 pt-2 pl-1 pr-1
- }
+
+.border_form {
+    @apply border-2 border-black bg-Background pb-2 pt-2 pl-1 pr-1
+}
+
+.grid-item {
+    @apply flex justify-center
+}
+
+.item {
+    @apply border-b-3 border-black
+}
+
+.bordure-grid-item {
+    @apply border-r-3 border-black
+}
+
+.phrase {
+    @apply font-Orbitron font-bold lg:text-xl md:text-lg sm:text-sm phone:text-lg 
+}
+.oeuvre_bas{
+    @apply flex items-center justify-center
+}
+.Filtre_align{
+    @apply flex items-center h-full
+}
+.oeuvres_padding-lg{
+    @apply lg:p-28
+}
+.oeuvres_padding-md{
+    @apply md:pl-12 md:pr-12 md:pt-28 md:pb-28
+}
+.oeuvres_padding-sm{
+    @apply md:pl-[8rem] md:pr-[8rem] md:pt-28 md:pb-28
+}
+.text_concours_padding-lg{
+    @apply pl-20 pr-20 pt-12 pb-12
+}
+.text_concours_padding-md{
+    @apply pl-10 pr-10 pt-12 pb-12
+}
+.text_concours_padding-sm{
+    @apply pl-10 pr-10 pt-5 pb-5
+}
+.text_concours_padding-phone{
+    @apply pl-5 pr-5 pt-5 pb-5
+}
+
+.Menu_Colonne1,
+.Menu_Colonne2,
+.Menu_Colonne3{
+    @apply font-Orbitron font-medium lg:text-4xl md:text-2xl sm:text-xl
+}
+.Padding-Btns{
+    @apply lg:pl-6 lg:pr-6 md:pl-4 md:pr-4 sm:pl-3 sm:pr-3 phone:pl-2 phone:pr-2
+}
